@@ -98,8 +98,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const phrases = [
     'Full-Stack Developer',
     'Python Engineer',
-    'Flask & React Developer',
-    'Magento Developer',
+    'FastAPI & Databricks Developer',
+    'Data Pipeline Builder',
+    'Angular & React Developer',
     'ML Enthusiast'
   ];
   let pIdx = 0, cIdx = 0, deleting = false;

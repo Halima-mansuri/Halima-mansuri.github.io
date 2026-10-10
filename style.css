@@ -521,6 +521,34 @@ ul { list-style: none; }
 }
 .tl-link:hover { background: rgba(56,189,248,0.08); }
 
+.tl-sub { font-size: 0.78rem; color: var(--accent3); margin-top: 2px; font-family: var(--font-mono); }
+.tl-current {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent3);
+  border: 1px solid rgba(52,211,153,0.35);
+  background: rgba(52,211,153,0.08);
+  padding: 2px 8px;
+  border-radius: 99px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.tl-intro { color: var(--text2); font-size: 0.9rem; line-height: 1.6; margin-bottom: 12px; }
+.tl-intro strong { color: var(--text); }
+.tl-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+.tl-tags span {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 3px 8px;
+  background: rgba(56,189,248,0.1);
+  border: 1px solid rgba(56,189,248,0.25);
+  border-radius: 4px;
+  color: var(--accent);
+}
+
 /* === SKILLS === */
 .skills-section { background: var(--bg2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .skills-categories { display: flex; flex-direction: column; gap: 36px; }
@@ -676,7 +704,7 @@ ul { list-style: none; }
 
 /* === CERTIFICATIONS === */
 .cert-section { background: var(--bg); }
-.cert-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.cert-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
 .cert-card {
   display: flex;
   align-items: center;
